@@ -1,0 +1,7 @@
+---
+version: 1
+build:
+  bash_commands: "echo 'It builds!'"
+deploy:
+  bash_commands: "echo 'It deploys'"
+  artifacts_path: "./target"
