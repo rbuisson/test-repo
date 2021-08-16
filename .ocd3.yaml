@@ -4,4 +4,3 @@ build:
   bash_commands: "mvn clean install -DskipTests"
 deploy:
   bash_commands: "mvn clean deploy -DskipTests -DaltDeploymentRepository=mks-nexus::default::https://nexus.mekomsolutions.net/repository/maven-snapshots"
-  artifacts_path: "./target"
