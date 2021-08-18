@@ -1,6 +1,8 @@
 ---
 version: 1
 build:
-  bash_commands: "mkdir -p target/; touch target/out.zip"
+  bash_commands: "mvn clean install"
 deploy:
   bash_commands: "echo Deploying files..."
+  artifact:
+    packaging: jar
