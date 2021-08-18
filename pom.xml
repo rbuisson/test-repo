@@ -16,7 +16,13 @@
     <name>Mekom Solutions</name>
     <url>http://www.mekomsolutions.com</url>
   </organization>
-
+  <dependencies>
+   <dependency>
+       <groupId>net.mekomsolutions.eip</groupId>
+       <artifactId>openmrs-eip-client</artifactId>
+       <version>1.0.0-SNAPSHOT</version>
+     </dependency>
+   </dependencies>
   <build>
     <plugins>
       <plugin>
